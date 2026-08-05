@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'agronomie au Gabon</title>
+    <style>
+        body {
+            background-color: #e8f5e9;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #2e7d32;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border: 3px solid #ffc107;
+        }
+        .info-etudiant {
+            font-size: 15px;
+            margin-top: 8px;
+            opacity: 0.9;
+        }
+        nav ul {
+            list-style: none;
+            padding: 12px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            background-color: #388e3c;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 6px;
+            transition: background-color 0.3s, transform 0.2s;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ffc107;
+            color: #2e7d32;
+            transform: scale(1.05);
+        }
+        section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+            border-left: 5px solid #ffc107;
+        }
+        h1, h2, h3 { color: #2e7d32; }
+        ul { line-height: 1.8; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 2px solid #a5d6a7;
+            padding: 12px;
+            text-align: center;
+        }
+        th { background-color: #2e7d32; color: white; }
+        tr:nth-child(even) { background-color: #f1f8e9; }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 500px;
+        }
+        input, button {
+            padding: 12px;
+            border: 2px solid #a5d6a7;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #2e7d32;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ffc107;
+            color: #2e7d32;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+            border: 3px solid #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>L'agronomie au Gabon : Defis et Opportunites</h1>
+            <p class="info-etudiant">Nom : OBAME BE Clement | Matricule : AJOUTE TA MATRICULE</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#presentation">Presentation</a></li>
+                <li><a href="#cultures">Cultures</a></li>
+                <li><a href="#defis">Defis</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="presentation">
+            <h2>Presentation de l'agronomie gabonaise</h2>
+            <p>
+                Le Gabon, pays d'Afrique Centrale, possede un fort potentiel agricole avec 80% de son territoire 
+                couvert de forets et des terres fertiles. L'agronomie au Gabon vise a developper une agriculture 
+                durable pour reduire la dependance aux importations alimentaires qui representent 60% de la 
+                consommation. Le gouvernement mise sur les filieres manioc, banane plantain, maraichage et 
+                l'elevage pour atteindre la securite alimentaire.
+            </p>
+            <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800" alt="Champ agricole au Gabon">
+        </section>
+
+        <section id="cultures">
+            <h2>Les principales cultures au Gabon</h2>
+            <ul>
+                <li>Le Manioc : Base de l'alimentation gabonaise</li>
+                <li>La Banane plantain : Tres cultivee dans tout le pays</li>
+                <li>Le Maraichage : Tomates, aubergines, piments</li>
+                <li>L'Hevea et le Palmier a huile : Cultures d'exportation</li>
+                <li>Le Cacao et le Cafe : Filieres de relance</li>
+            </ul>
+
+            <h3>Production Agricole par Province</h3>
+            <table>
+                <tr>
+                    <th>Province</th>
+                    <th>Culture Principale</th>
+                    <th>Superficie</th>
+                </tr>
+                <tr>
+                    <td>Estuaire</td>
+                    <td>Maraichage</td>
+                    <td>1200 ha</td>
+                </tr>
+                <tr>
+                    <td>Woleu-Ntem</td>
+                    <td>Banane plantain</td>
+                    <td>3500 ha</td>
+                </tr>
+                <tr>
+                    <td>Ogooue-Ivindo</td>
+                    <td>Manioc</td>
+                    <td>2800 ha</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="defis">
+            <h2>Les Defis de l'agronomie au Gabon</h2>
+            <p>
+                Malgre son potentiel, l'agronomie gabonaise fait face a plusieurs defis : le manque 
+                d'infrastructures, l'acces difficile au financement pour les jeunes agriculteurs, et 
+                la concurrence des produits importes. Des solutions sont mises en place comme le 
+                programme GRAINE pour encourager l'agriculture familiale.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+                <label for="tel">Telephone :</label>
+                <input type="tel" id="tel" name="tel" placeholder="06 XX">
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+    </div>
+</body>
+</html>
